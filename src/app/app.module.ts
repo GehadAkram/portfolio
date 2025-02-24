@@ -16,6 +16,7 @@ import { SkillsComponent } from './resume/skills/skills.component';
 import { ExperinceComponent } from './resume/experince/experince.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ServicesComponent } from './services/services.component';
+import { VideoModalComponent } from './resume/projects/video-modal/video-modal.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ServicesComponent } from './services/services.component';
     SkillsComponent,
     ExperinceComponent,
     TestimonialsComponent,
-    ServicesComponent
+    ServicesComponent,
+    VideoModalComponent
   ],
   imports: [
     BrowserModule,

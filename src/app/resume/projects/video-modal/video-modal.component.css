@@ -1,0 +1,10 @@
+.close {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: darkgrey;
+}
+
+.close:hover {
+  color: dimgray;
+}

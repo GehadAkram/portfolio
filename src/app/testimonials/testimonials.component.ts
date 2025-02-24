@@ -9,10 +9,10 @@ import { AfterViewInit, Component } from '@angular/core';
 })
 export class TestimonialsComponent implements AfterViewInit {
   testimonials = [
-    { name: 'Anna Deynah',
-      image: 'https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp',
-      title: 'UX Designer',
-      comment: 'I am very happy with the service you provided.',
+    { name: 'Iman Helal',
+      image: 'dr.Iman.jpg',
+      title: 'University Professor',
+      comment: 'Gehad is a very hard working student. She is very welling to learn and she helps her friends when facing any issues. She is collaborative, active and polite. Working with her was a nice experience.',
       rating: 5
     },
   ];

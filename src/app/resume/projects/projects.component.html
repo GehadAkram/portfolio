@@ -25,9 +25,9 @@
                 <h5 class="fw-bolder">Technologies</h5>
                 <p class="text-muted">Angular, Bootstrap, Laravel, MySQL</p>
                 <div class="text-center">
-                  <a class="btn btn-primary px-4 py-3" href="#!">
-                  View Project
-                </a>
+                  <button type="button" class="btn btn-primary px-4 py-3" data-bs-toggle="modal" data-bs-target="#videoModal">
+                    View Project Demo
+                  </button>
                 </div>
               </div>
             </div>
@@ -43,13 +43,17 @@
               <div class="p-5">
                 <h2 class="fw-bolder">Fashion e-commerce - 2024</h2>
                 <p>
-                  This is a learning project where i have created a fashion e-commerce website 
-                  using Angular and Bootstrap for the front-end and Node.js, Express.js, MongoDB for the back-end.
+                  This is a learning project where I have created a fashion e-commerce website 
+                  using Angular and Bootstrap for the front-end and Node.js, Express.js, MongoDB for the back-end. 
+                  The project allows the user to browse products, add products to cart or wishlist, place orders 
+                  and be informed about order status. Admins can add add and edit products, update order's status, 
+                  and view sales statistics. 
                 </p>
                 <h5 class="fw-bolder">Technologies</h5>
                 <p class="text-muted">Angular, Bootstrap, Node.js, Express.js, MongoDB</p>
                 <div class="text-center">
-                  <a class="btn btn-primary px-4 py-3" href="#!">
+                  <a class="btn btn-primary px-4 py-3" target="_blank" rel="noopener noreferrer"
+                  href="https://gehadakram.github.io/NTI-Project-Front/home">
                   View Project
                 </a>
                 </div>
@@ -57,8 +61,8 @@
             </div>
           </div>
         </div>
-        There are another 3 projects but i can't find data now
       </div>
     </div>
   </div>
 </section>
+<app-video-modal></app-video-modal>
